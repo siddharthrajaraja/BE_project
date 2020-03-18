@@ -17,4 +17,5 @@ def successive_differentiation(mu,alpha):
     plt.plot(t,f,color="blue")
     plt.plot(t,dio,color="red")
     plt.plot(t,dfo,color="green")
+    plt.show()
 successive_differentiation(1.2,0.1)
