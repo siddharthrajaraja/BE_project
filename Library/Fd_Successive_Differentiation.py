@@ -53,7 +53,7 @@ def successive_differentiation(mu,alpha):
 
     data=[trace1,trace2,trace3]
     fig=go.Figure(data,layout)
-    ply.plot(fig,filename="../web_pages/render.html")
+    ply.plot(fig,filename="render.html")
 
     
 
@@ -61,4 +61,4 @@ def successive_differentiation(mu,alpha):
     # plt.plot(t,dio,color="red")
     # plt.plot(t,dfo,color="green")
     # plt.show()
-successive_differentiation(1.2,0.1)
+#successive_differentiation(1.2,0.1)
